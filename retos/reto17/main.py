@@ -1,0 +1,8 @@
+tupla = (2, 4, 3, 5, 4, 6, 7, 8, 6, 1)
+print(f"Los elementos del 3 al 5 de la tupla son {tupla[2:5]}")
+print(f"Los 6 primeros elementos de la tupla son {tupla[:-4]}")
+print(f"La tupla desde el elemento 5 hasta al final es {tupla[4:]}")
+print(f"La tupla entera haciendo uso de [:] es {tupla[:]}")
+print(f"Todos los elementos de la tupla desde la posición 2 a la 9 de dos en dos son {tupla[1:8:2]}")
+print(f"Tupla con un salto cada 4 elementos {tupla[:: 4]}")
+print(f"Step negativo para mostrar la tupla desde la posición 9 a la 2 {tupla[-2:-10:-1]}")
