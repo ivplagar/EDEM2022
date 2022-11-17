@@ -57,6 +57,6 @@ def siete():
   disco7['nombre'] = "Evangelion"
   disco7['artista'] = "Behemoth"
   disco7['año'] = "2009"
-  disco7['precio'] = 15.99
+  disco7['precio'] = 14.99
   disco7['genero'] = "Black Metal"
   return (disco7)
