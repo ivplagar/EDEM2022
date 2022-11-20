@@ -1,4 +1,5 @@
 tupla = (2, 4, 3, 5, 4, 6, 7, 8, 6, 1)
+print(f"La tupla es {tupla}")
 print(f"Los elementos del 3 al 5 de la tupla son {tupla[2:5]}")
 print(f"Los 6 primeros elementos de la tupla son {tupla[:-4]}")
 print(f"La tupla desde el elemento 5 hasta al final es {tupla[4:]}")
