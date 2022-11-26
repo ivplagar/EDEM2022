@@ -16,7 +16,8 @@ class Producto():
     categoria: Categoria
     coste: float
     color: Color
-    def __init__(self, nombre, precio, categoria, coste, color):
+    
+    def __init__(self, nombre: str, precio: float, categoria: Categoria, coste: float, color: Color):
         self.nombre = nombre
         self.precio = precio
         self.categoria = categoria
